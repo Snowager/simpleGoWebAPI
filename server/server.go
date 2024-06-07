@@ -5,6 +5,6 @@ import (
 )
 
 // Define home handler function
-func home(w http.ResponseWriter, r *http.Request) {
+func Home(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Hello from this application"))
 }
