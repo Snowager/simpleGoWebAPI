@@ -1,4 +1,4 @@
-package server
+package apiServer
 
 import (
 	"net/http"
